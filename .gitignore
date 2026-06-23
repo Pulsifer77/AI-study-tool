@@ -1,0 +1,19 @@
+# Python virtual environment - machine specific, never commit this
+venv/
+
+# Environment variables - contains secret API keys, never commit this
+.env
+
+# Python cache files - auto-generated, not needed in Git
+__pycache__/
+*.pyc
+
+# Node modules - same as venv but for JavaScript, huge folder
+node_modules/
+
+# Build output - generated files, not source code
+dist/
+
+# Visual Studio internal files
+.vs/
+*.vsidx
